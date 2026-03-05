@@ -15,91 +15,79 @@
 🧠 Featured Projects
 🖥 Custom UNIX Shell (C)
 
-Built a fully functional shell from scratch using system calls.
-
-Implemented fork(), execvp(), wait()
-
-Added piping, I/O redirection, background jobs
-
-Built built-in commands (cd, jobs, fg)
-
-Implemented signal handling and command history
+  - Built a fully functional shell from scratch using system calls.
+  
+  - Implemented fork(), execvp(), wait()
+  
+  - Added piping, I/O redirection, background jobs
+  
+  - Built built-in commands (cd, jobs, fg)
+  
+  - Implemented signal handling and command history
 
 What I Learned: Process control, system calls, OS internals.
 
 ⚙️ Multithreaded Priority Task Scheduler (C)
 
-Designed a scheduler managing high, medium, and low priority queues.
-
-Implemented pthread-based concurrency
-
-Used mutexes and semaphores for synchronization
-
-Prevented starvation and handled resource constraints
+  Designed a scheduler managing high, medium, and low priority queues.
+  
+  Implemented pthread-based concurrency
+  
+  Used mutexes and semaphores for synchronization
+  
+  Prevented starvation and handled resource constraints
 
 What I Learned: Race conditions, deadlocks, synchronization design.
 
 🗂 File System Hash Table Implementation (Python)
 
-Built a custom hash table supporting:
+  - Built a custom hash table supporting:
+  
+  - Linear Probing
+  
+  - Quadratic Probing
+  
+  - Double Hashing
+  
+  - Lazy deletion (tombstones)
 
-Linear Probing
-
-Quadratic Probing
-
-Double Hashing
-
-Lazy deletion (tombstones)
-
-Dynamic resizing at load factor > 0.75
+  - Dynamic resizing at load factor > 0.75
 
 What I Learned: Collision resolution strategies, load factor management, amortized analysis.
 
 🧩 MEMEFS – In-Memory File System (C + FUSE)
 
-Implemented a custom in-memory file system integrated with Linux VFS.
-
-File/directory creation and deletion
-
-Custom metadata structures
-
-Dynamic memory management
+  - Implemented a custom in-memory file system integrated with Linux VFS.
+  
+  - File/directory creation and deletion
+  
+  - Custom metadata structures
+  
+  - Dynamic memory management
 
 What I Learned: File system architecture and OS abstraction layers.
 
 🧠 Linux Kernel Connect Four Module (C)
 
-Developed a character device driver in kernel space.
-
-Created /dev/fourinarow
-
-Managed game state inside kernel memory
-
-Implemented user-kernel communication
+  - Developed a character device driver in kernel space.
+  
+  - Created /dev/fourinarow
+  
+  - Managed game state inside kernel memory
+  
+  - Implemented user-kernel communication
 
 What I Learned: Kernel development, memory safety, privilege boundaries.
 
 📚 Currently Learning
 
-Advanced system design
-
-Performance optimization techniques
-
-Secure systems programming
-
-Backend infrastructure concepts
-
-🎯 Career Goals
-
-I'm aiming to work in:
-
-Systems Software Engineering
-
-Backend / Infrastructure Engineering
-
-High-performance computing
-
-Security-focused systems development
+  Advanced system design
+  
+  Performance optimization techniques
+  
+  Secure systems programming
+  
+  Backend infrastructure concepts
 
 📫 Let's Connect
 
