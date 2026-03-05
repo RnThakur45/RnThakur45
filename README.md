@@ -29,13 +29,13 @@ What I Learned: Process control, system calls, OS internals.
 
 ⚙️ Multithreaded Priority Task Scheduler (C)
 
-  Designed a scheduler managing high, medium, and low priority queues.
+  - Designed a scheduler managing high, medium, and low priority queues.
   
-  Implemented pthread-based concurrency
+  - Implemented pthread-based concurrency
   
-  Used mutexes and semaphores for synchronization
+  - Used mutexes and semaphores for synchronization
   
-  Prevented starvation and handled resource constraints
+  - Prevented starvation and handled resource constraints
 
 What I Learned: Race conditions, deadlocks, synchronization design.
 
